@@ -1,12 +1,12 @@
 type PetType = 'dog' | 'cat' | 'fish';
-type PetGender = 'Masculino' | 'feminino';
+type PetGender = 'Masculino' | 'Feminino';
 
 type Pet = {
     type: PetType,
     image: string,
     name: string,
     color: string,
-    gender: PetGender
+    sex: PetGender
 };
 
 
