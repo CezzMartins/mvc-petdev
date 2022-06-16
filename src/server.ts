@@ -16,11 +16,11 @@ server.use(express.static(path.join(__dirname, '../public'))); //set up static f
 //Routes
 server.use(mainRoutes);//user the rotes
 server.use((request, response) => {
-    response.send('PAGINA NÃO ENCONTRADA');
+    response.render('pages/404');
 })
 
 
 server.listen(process.env.PORT, () => {
-    console.log('Server is ON!!')
+    console.log('Server is ON!!');
 })
 
