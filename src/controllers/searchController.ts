@@ -8,6 +8,7 @@ export const search = (request: Request, response: Response) => {
     let animalList = Pet.getByName(query);
     response.render('pages/page', {
         menu: createMenuObject(''),
-        animalList
+        animalList,
+        query
     })
 }   
