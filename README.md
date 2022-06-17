@@ -2,7 +2,7 @@
 
 Projeto feito no curso Node + Typescript
 ### Heroku:
-Projeto disponível: [Aqui](https://cli-assets.heroku.com/install-ubuntu.sh)
+Projeto disponível: [Aqui](https://still-citadel-59230.herokuapp.com/)
 
 ### Pré-requisitos globais:
  `npm i -g nodemon typescript ts-node`
